@@ -1,0 +1,105 @@
+📘 MINI PROJECT JAVA
+🎓 Sistem Manajemen Mahasiswa Sederhana
+🌟 Latar Belakang
+
+Dalam kegiatan akademik, pengolahan data mahasiswa seperti pencatatan nilai dan penentuan grade sering dilakukan secara manual. Proses ini cenderung memakan waktu dan berpotensi menimbulkan kesalahan.
+
+Oleh karena itu, diperlukan sebuah sistem sederhana yang dapat membantu dalam mengelola data mahasiswa secara otomatis, cepat, dan terstruktur.
+
+Program ini dibuat menggunakan bahasa pemrograman Java dengan konsep Object-Oriented Programming (OOP) untuk mensimulasikan pengolahan data mahasiswa secara efisien.
+
+🎯 Tujuan
+
+Tujuan dari pembuatan program ini adalah:
+
+Menerapkan konsep Object-Oriented Programming (OOP)
+Memahami pemisahan antara Model dan Driver
+Mengelola input data dalam jumlah banyak
+Mengolah data mahasiswa secara otomatis
+Menampilkan hasil dalam bentuk tabel yang rapi
+
+⚙️ Struktur Program
+
+Program ini terdiri dari dua file utama:
+
+Mahasiswa.java (Model)
+Berfungsi untuk:
+Menyimpan data mahasiswa (nama, NIM, nilai)
+Menentukan grade berdasarkan nilai
+
+Main.java (Driver)
+Berfungsi untuk:
+Mengatur alur program
+Menerima input dari pengguna
+Menyimpan data ke dalam ArrayList
+Menampilkan output dalam bentuk tabel
+
+🔄 Cara Kerja Program
+Program meminta pengguna memasukkan data mahasiswa
+Data dimasukkan dalam satu baris dengan format tertentu
+Data dapat diinput sebanyak yang diinginkan
+Pengguna mengetik --- untuk mengakhiri input
+Setelah selesai, seluruh data ditampilkan dalam bentuk tabel
+
+🧪 Format Input
+
+Format input yang digunakan adalah:
+
+Nama;NIM;Nilai
+
+🔹 Contoh 1
+Input:
+Budi Santoso;12345;88
+Siti Aminah;67890;65
+Output:
+=== DATA MAHASISWA ===
+| Nama | NIM | Nilai | Grade |
+| Budi Santoso | 12345 | 88.0 | A |
+| Siti Aminah | 67890 | 65.0 | C |
+🔹 Contoh 2
+Input:
+Andi;11111;45
+Dewi;22222;50
+Rina;33333;72
+Output:
+=== DATA MAHASISWA ===
+| Nama | NIM | Nilai | Grade |
+| Andi | 11111 | 45.0 | E |
+| Dewi | 22222 | 50.0 | D |
+| Rina | 33333 | 72.0 | B |
+🔹 Contoh 3
+Input:
+Budi Santoso;12345;90
+Siti Aminah;67890;75
+Andi;11111;60
+Dewi;22222;50
+Rina;33333;85
+Output:
+=== DATA MAHASISWA ===
+| Nama | NIM | Nilai | Grade |
+| Budi Santoso | 12345 | 90.0 | A |
+| Siti Aminah | 67890 | 75.0 | B |
+| Andi | 11111 | 60.0 | C |
+| Dewi | 22222 | 50.0 | D |
+| Rina | 33333 | 85.0 | A |
+⚠️ Ketentuan Penggunaan
+Input harus mengikuti format: Nama;NIM;Nilai
+Gunakan tanda titik koma (;) sebagai pemisah
+Nilai harus berupa angka
+Ketik --- untuk mengakhiri proses input
+
+
+🚀 Pengembangan Selanjutnya
+
+Program ini dapat dikembangkan lebih lanjut dengan menambahkan fitur:
+
+Pencarian data mahasiswa
+Pengurutan berdasarkan nilai
+Perhitungan rata-rata nilai
+Penyimpanan ke file atau database
+Pembuatan menu interaktif (CRUD)
+🧠 Kesimpulan
+
+Program ini merupakan implementasi sederhana dari sistem pengolahan data mahasiswa yang mampu menerima banyak input, mengolah data secara otomatis, serta menampilkan hasil dalam bentuk tabel yang terstruktur.
+
+Dengan adanya program ini, proses pengelolaan data menjadi lebih efisien, akurat, dan mudah digunakan.
